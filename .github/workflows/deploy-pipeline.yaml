@@ -55,5 +55,5 @@ publish:
       with:
         tag_name: ${{ github.run_number }}
         release_name: release from ${{ github.sha }}. Release notes on the documentation.
-         draft: false
-         prerelease: false
+        draft: false
+        prerelease: false
